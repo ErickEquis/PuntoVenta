@@ -1,0 +1,15 @@
+------ Punto de venta --------
+---Atributos---
+-Precio (float)
+-Cantidad (int)
+-Nombre (String)
+-Codigo (String)
+-------------
+-Compras
+-Ventas
+------------------------------
+---Metodos---
+-Ingresar productos.
+-Quitar productos.
+-Constular productos
+-Modificar productos
