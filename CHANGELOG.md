@@ -14,6 +14,10 @@ a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Released]
 
+## [0.0.2] - 2023-03-08
+### [add]
+* [Erick] () - Se agregan clases Administrador.java, Empleado.java y Personal.java. Archivo PuntoVenta.txt se agrega informacion para el proyecto
+
 ## [0.0.1] - 2023-03-07
 ### [add]
 * [Marcos-Branche] () - Se crea rama main, develop, QA, Marcos-Branche.
