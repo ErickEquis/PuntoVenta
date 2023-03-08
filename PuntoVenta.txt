@@ -1,4 +1,6 @@
 ------ Punto de venta --------
+*************************
+------ Productos --------
 ---Atributos---
 -Precio (float)
 -Cantidad (int)
@@ -7,9 +9,39 @@
 -------------
 -Compras
 -Ventas
-------------------------------
+-------------
 ---Metodos---
 -Ingresar productos.
 -Quitar productos.
 -Constular productos
 -Modificar productos
+-Consultar stock
+**************************
+----- Personal ----------
+---Atributos---
+-Id (Integer)
+-Nombre (String)
+-Turno (String)
+-Monto vendido (float)
+-Tipo de personal (int)
+-Contador (int)
+
+///// Tipos ///////
+1 - Administrador
+2 - Empleado
+
+---Metodos---
+-Vender
+-Ingresar productos
+-Baja productos
+-Modificar producto
+-Venta producto
+-Consulta Inventario
+-Generar informe (tipo 1)
+-Alta empleado (tipo 1)
+-Baja empleado (tipo 1)
+-Modificar empleado (tipo 1)
+-Consulta empleado (tipo 1)
+
+**************************
+----- Inventario -----
