@@ -1,5 +1,8 @@
 ------ Punto de venta --------
+*************************
+------ Productos --------
 ---Atributos---
+-Id (int)
 -Precio (float)
 -Cantidad (int)
 -Nombre (String)
@@ -7,9 +10,21 @@
 -------------
 -Compras
 -Ventas
-------------------------------
+-------------
 ---Metodos---
 -Ingresar productos.
 -Quitar productos.
 -Constular productos
 -Modificar productos
+-Consultar stock
+**************************
+----- Usuarios ----------
+---Atributos---
+-Id (int)
+-Nombre (String)
+-Hora de entrada (date)
+-Hora de salida (date)
+-Monto vendido (float)
+---Metodos---
+-Vender
+-Ingresar productos
