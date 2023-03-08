@@ -1,18 +1,18 @@
-import java.util.HashMap;
-
 public class Producto {
 
     private float precio;
     private int cantidad;
     private String nombre;
     private String codigo;
+    private String tipoProducto;
 
     
-    public Producto(float precio, int cantidad, String nombre, String codigo) {
+    public Producto(float precio, int cantidad, String nombre, String codigo, String tipoProducto) {
         this.precio = precio;
         this.cantidad = cantidad;
         this.nombre = nombre;
         this.codigo = codigo;
+        this.tipoProducto = tipoProducto;
     }
     public Producto() {
     }
@@ -40,9 +40,10 @@ public class Producto {
     public void setCodigo(String codigo) {
         this.codigo = codigo;
     }
-    
-    public void nuevoProducto(HashMap<String, Producto> dataProdcuto) {
-        
+    public String getTipoProducto() {
+        return tipoProducto;
     }
-
+    public void setTipoProducto(String tipoProducto) {
+        this.tipoProducto = tipoProducto;
+    }
 }

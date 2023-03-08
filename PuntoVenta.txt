@@ -2,7 +2,6 @@
 *************************
 ------ Productos --------
 ---Atributos---
--Id (int)
 -Precio (float)
 -Cantidad (int)
 -Nombre (String)
@@ -18,13 +17,31 @@
 -Modificar productos
 -Consultar stock
 **************************
------ Usuarios ----------
+----- Personal ----------
 ---Atributos---
--Id (int)
+-Id (Integer)
 -Nombre (String)
--Hora de entrada (date)
--Hora de salida (date)
+-Turno (String)
 -Monto vendido (float)
+-Tipo de personal (int)
+-Contador (int)
+
+///// Tipos ///////
+1 - Administrador
+2 - Empleado
+
 ---Metodos---
 -Vender
 -Ingresar productos
+-Baja productos
+-Modificar producto
+-Venta producto
+-Consulta Inventario
+-Generar informe (tipo 1)
+-Alta empleado (tipo 1)
+-Baja empleado (tipo 1)
+-Modificar empleado (tipo 1)
+-Consulta empleado (tipo 1)
+
+**************************
+----- Inventario -----
